@@ -11,7 +11,16 @@
     "express": "^4.18.2",
     "mongodb": "^6.2.0",
     "node-cache": "^5.1.2",
-    "nodemon": "^3.0.1",
+    "nodemailer": "^6.9.13",
     "sanitize-html": "^2.11.0"
-  }
+  },
+  "name": "nodejs-tutorial",
+  "description": "1. After cloning / downloading these files you'll need to rename the `env.txt` file to instead be named `.env`\r 2. In your `.env` file you'll need to enter your MongoDB connection string value, as well as your Cloudinary Cloud Name, Cloudinary API Key, and Cloudinary API Secret values.\r 3. In your command-line run the `npm install` command to pull in the dependencies.\r 4. You can start the project locally by running the `npm run dev` command.\r 5. You can then visit the project in your web browser by visiting `localhost:3000` or whatever port number you might have chosen in your `.env` file.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "author": "",
+  "license": "ISC"
 }
