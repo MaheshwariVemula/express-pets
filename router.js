@@ -3,7 +3,6 @@ const router = express.Router()
 const petController = require("./controllers/petController")
 const contactController = require("./controllers/contactController")
 
-
 // main routes
 router.get("/", petController.homepage)
 router.get("/admin", petController.adminPage)
@@ -20,8 +19,6 @@ router.post("/admin/delete-pet", petController.onlyAdmin, petController.deletePe
 router.post("/admin/delete-pet-async", petController.onlyAdmin, petController.deletePetAsync)
 
 // contact related routes
-
 router.post("/submit-contact", contactController.submitContact)
-
 
 module.exports = router
