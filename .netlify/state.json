@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "IJsselstein",
+			"country": {
+				"code": "NL",
+				"name": "The Netherlands"
+			},
+			"subdivision": {
+				"code": "UT",
+				"name": "Utrecht"
+			},
+			"timezone": "Europe/Amsterdam",
+			"latitude": 52.0231,
+			"longitude": 5.0448
+		},
+		"timestamp": 1713819353936
+	}
+}
